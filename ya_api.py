@@ -1,6 +1,6 @@
 import requests
 
-TOKEN_YADISK = 'AQAAAAAPDYswAADLW-cnxjt4pkdRvcDsCQp3qMI'
+TOKEN_YADISK = ''
 mkdir_url = 'https://cloud-api.yandex.net:443/v1/disk/resources'
 
 
