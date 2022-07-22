@@ -54,7 +54,7 @@ def get_all_doc_owners_names():
             users_list.append(doc_owner_name)
         except KeyError:
             pass
-    return set(users_list)
+    return set(users_list), True
 
 
 def remove_doc_from_shelf(doc_number):
